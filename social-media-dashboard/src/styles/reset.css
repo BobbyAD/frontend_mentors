@@ -87,10 +87,10 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 62.5%;
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -126,4 +126,16 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+/* 100% height and box-sizing fixes */
+html,
+body {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+#root {
+    box-sizing: border-box;
+    height: 100%;
 }

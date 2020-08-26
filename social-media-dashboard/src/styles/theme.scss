@@ -1,0 +1,39 @@
+.App {
+    // themed
+    // basic colors
+    --background: hsl(0, 0%, 100%);
+    --top-bg: hsla(225, 100%, 98%, .8);
+    --card-bg: hsl(227, 47%, 96%);
+    --text-low-contrast: hsl(228, 12%, 44%);
+    --text-high-contrast: hsl(230, 17%, 14%);
+
+    // toggle
+    --toggle: hsl(230, 22%, 74%);
+
+    // fixed colors
+    // top borders
+    --facebook: hsl(208, 92%, 53%);
+    --twitter: hsl(203, 89%, 53%);
+    --snapchat: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 97%, 39%));
+    --youtube: hsl(348, 97%, 39%);
+
+    // primary
+    --lime: hsl(163, 72%, 41%);
+    --bright-red: hsl(356, 69%, 56%);
+
+    // fonts
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+}
+
+.App.dark {
+    // basic colors
+    --background: hsl(230, 17%, 14%);
+    --top-bg: hsl(232, 19%, 15%);
+    --card-bg: hsl(228, 28%, 20%);
+    --text-low-contrast: hsl(228, 34%, 66%);
+    --text-high-contrast: hsl(0, 0%, 100%);
+
+    // toggle
+    --toggle: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
