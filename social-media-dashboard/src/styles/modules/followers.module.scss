@@ -5,11 +5,65 @@
     column-gap: 2.8rem;
 
     width: 99.5%;
-    height: 22rem;
+    height: 21.7rem;
     margin-top: 0.8rem;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        align-self: center;
+    }
+
+    .name {
+        margin-top: 1.7rem;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        color: var(--text-low-contrast);
+        font-size: 1.2rem;
+        p {
+            margin-left: .7rem;
+        }
+    }
+
+    .followers {
+        text-align: center;
+        strong {
+            font-weight: 700;
+            font-size: 5.5rem;
+        }
+        p {
+            color: var(--text-low-contrast);
+            font-size: 1.2rem;
+            letter-spacing: .5rem;
+            margin-top: .7rem;
+        }
+    }
+
+    .gain {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 1.6rem;
+        margin-top: .4rem;
+        p {
+            margin-left: .3rem;
+        }
+        &.positive {
+            color: var(--lime);
+        }
+        &.negative {
+            color: var(--bright-red);
+        }
+    }
+
+    // colors
     border-radius: 5px;
     background: var(--card-bg);
     &.facebook {
@@ -18,7 +72,7 @@
     &.twitter {
         border-top: .4rem solid var(--twitter);
     }
-    &.snapchat {
+    &.instagram {
         position: relative;
         margin-top: .4rem;
         border-radius: 0;
@@ -32,19 +86,10 @@
             z-index: -1;
             margin-top: -.4rem;
             border-radius: 5px;
-            background: var(--snapchat)
+            background: var(--instagram)
         }
     }
     &.youtube {
         border-top: .4rem solid var(--youtube);
-    }
-}
-
-.gain {
-    &.positive {
-        color: blue;
-    }
-    &.negative {
-        color: red;
     }
 }

@@ -7,6 +7,7 @@ import "./styles/app.scss"
 // components
 import Header from "./components/header/Header";
 import Followers from "./components/followers/Followers";
+import Overview from "./components/overview/Overview";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <div className="main-container">
                 <Header />
                 <Followers />
+                <Overview />
             </div>
         </div>
     );
