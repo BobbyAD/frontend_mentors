@@ -8,6 +8,14 @@
     color: var(--text-high-contrast);
 }
 
+.App.transition,
+.App.transition *,
+.App.transition *:before,
+.App.transition *:after {
+    transition: all 1000ms !important;
+    transition-delay: 0 !important;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
