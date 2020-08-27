@@ -27,7 +27,8 @@
         left: 0.3rem;
     }
     &.dark {
-        left: 2.9rem;
+        left: calc(100% - .3rem);
+        transform: translateX(-100%);
     }
 }
 
