@@ -31,6 +31,8 @@ const FollowerCard = ({ platform }) => {
                 setFollowers(8239);
                 setGain(-144);
                 break;
+            default:
+                break
         }
     }, []);
 

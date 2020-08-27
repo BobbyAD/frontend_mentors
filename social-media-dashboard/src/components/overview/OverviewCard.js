@@ -53,6 +53,8 @@ const PlatformImage = ({ platform }) => {
                     <img src={yt} />
                 </>
             );
+        default:
+            return <></>
     }
 
     return <></>;
