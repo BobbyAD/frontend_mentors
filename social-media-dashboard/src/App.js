@@ -36,7 +36,6 @@ function App() {
         } else {
             changeTheme("light");
         }
-        console.log(theme);
     };
 
     return (
