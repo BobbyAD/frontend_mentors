@@ -51,15 +51,16 @@ const Overview = () => {
         <div className={styles.container}>
             <h2 className={styles.title}>Overview - Today</h2>
             <div className={styles.cardContainer}>
-                {platforms.map((p, i) => (
-                    <div key={p}>
-                        <OverviewCard platform={p} content={content[i * 2]}/>
+                {content.map((c, i) => {
+                    const p = platforms[Math.floor(i/2)]
+                    return (
                         <OverviewCard
                             platform={p}
-                            content={content[i * 2 + 1]}
+                            content={c}
+                            key={p + c.title}
                         />
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         </div>
     );
