@@ -52,13 +52,13 @@ const Overview = () => {
             <h2 className={styles.title}>Overview - Today</h2>
             <div className={styles.cardContainer}>
                 {platforms.map((p, i) => (
-                    <>
-                        <OverviewCard platform={p} content={content[i * 2]} />
+                    <div key={p}>
+                        <OverviewCard platform={p} content={content[i * 2]}/>
                         <OverviewCard
                             platform={p}
                             content={content[i * 2 + 1]}
                         />
-                    </>
+                    </div>
                 ))}
             </div>
         </div>

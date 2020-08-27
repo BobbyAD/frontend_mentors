@@ -8,7 +8,7 @@ const Followers = () => {
     return (
         <div className={styles.container}>
             {platforms.map((item) => (
-                <FollowerCard platform={item} />
+                <FollowerCard platform={item} key={item}/>
             ))}
         </div>
     );
