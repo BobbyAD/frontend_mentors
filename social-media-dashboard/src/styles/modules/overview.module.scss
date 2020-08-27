@@ -16,7 +16,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 2.8rem;
-    row-gap: 2.4rem;
     margin-top: 2.8rem;
 }
 
@@ -24,6 +23,7 @@
     font-weight: 700;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2.4rem;
 
     padding: 2.8rem 3.2rem 2.4rem 2.4rem;
 
