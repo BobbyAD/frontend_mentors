@@ -23,7 +23,7 @@ const Overview = () => {
         },
         {
             title: "Profile Views",
-            amount: "52K",
+            amount: "52k",
             change: "1375",
         },
         {
