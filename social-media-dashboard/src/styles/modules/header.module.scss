@@ -4,6 +4,10 @@
     width: 100%;
     margin: 3.9rem;
     font-weight: 700;
+
+    @media only screen and (max-width: 650px) {
+        flex-direction: column;
+    }
 }
 
 .textContainer {
@@ -15,5 +19,11 @@
         padding-left: .2rem;
         font-size: 1.4rem;
         color: var(--text-low-contrast)
+    }
+
+    @media only screen and (max-width: 650px) {
+        padding-bottom: 2rem;
+        margin-bottom: 1.6rem;
+        border-bottom: 1px solid var(--card-bg);
     }
 }
