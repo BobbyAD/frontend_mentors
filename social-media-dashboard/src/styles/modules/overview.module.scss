@@ -18,6 +18,7 @@
     column-gap: 2.8rem;
     row-gap: 2.4rem;
     margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
 
     @media only screen and (max-width: 1050px) {
         grid-template-columns: repeat(2, 1fr);

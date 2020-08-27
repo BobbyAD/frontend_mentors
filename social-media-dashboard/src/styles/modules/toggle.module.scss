@@ -13,6 +13,9 @@
             hsl(146, 68%, 55%)
         );
     }
+    &:active {
+        border: none;
+    }
 }
 
 .circle {
