@@ -1,0 +1,43 @@
+.toggleButton {
+    width: 5rem;
+    height: 2.4rem;
+    background: var(--toggle);
+    float: right;
+    border-radius: 10rem;
+    position: relative;
+    border: none;
+    &:hover {
+        background: linear-gradient(
+            90deg,
+            hsl(210, 78%, 56%),
+            hsl(146, 68%, 55%)
+        );
+    }
+}
+
+.circle {
+    content: "";
+    position: absolute;
+    top: 0.3rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    background: var(--top-bg);
+    border-radius: 9rem;
+    &.light {
+        left: 0.3rem;
+    }
+    &.dark {
+        left: 2.9rem;
+    }
+}
+
+.toggleContainer {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+    color: var(--text-low-contrast);
+    p {
+        margin-right: 1.4rem;
+    }
+}

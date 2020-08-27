@@ -43,15 +43,7 @@ function App() {
         <div className={"App" + " " + theme}>
             <div className="top-background" />
             <div className="main-container">
-                <button
-                    className={"button" + theme}
-                    onClick={handleClick}
-                    disabled={transition}
-                >
-                    <div className={"circle" + " " + theme} />
-                </button>
-
-                <Header />
+                <Header theme={theme} handleClick={handleClick} transition={transition}/>
                 <Followers />
                 <Overview />
             </div>

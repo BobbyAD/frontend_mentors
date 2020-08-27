@@ -31,36 +31,3 @@
     height: 25.9%;
     width: 100%;
 }
-
-button {
-    width: 6rem;
-    height: 2.8rem;
-    background: var(--toggle);
-    float: right;
-    border-radius: 10rem;
-    position: relative;
-    border: none;
-    &:hover {
-        background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
-    }
-
-}
-
-.circle {
-    content: "";
-    position: absolute;
-    top: 0.4rem;
-    width: 2rem;
-    height: 2rem;
-    background: var(--top-bg);
-    border-radius: 9rem;
-
-    &.light {
-        left: 0.4rem;
-    }
-    &.dark {
-        left: 3.6rem;
-    }
-}
-
-
